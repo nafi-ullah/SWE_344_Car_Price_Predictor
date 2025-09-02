@@ -107,6 +107,16 @@ The application will be available at:
 - **Mean Absolute Error**: $1,916
 - **Most Important Features**: Year (37.9%), Mileage (37.7%), Engine Size (19.4%)
 
+### Model Evaluation Plots
+
+The following plots show the model's performance on the test dataset:
+
+![Model Performance](model_performance.png)
+
+**Left Plot - Actual vs Predicted Prices**: Shows how well the model's predictions match the actual car prices. Points closer to the red diagonal line indicate better predictions.
+
+**Right Plot - Residual Plot**: Shows the difference between actual and predicted prices. Points scattered randomly around the horizontal line (y=0) indicate good model performance with no systematic bias.
+
 ## File Structure
 
 ```
