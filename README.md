@@ -1,25 +1,35 @@
+Here is your updated README.md, with the demonstration images aligned horizontally for a neat presentation. The rest of your code and instructions remain untouched.
+
+***
+
 # Car Price Prediction Application 🚗
 
-A machine learning application that predicts car prices based on various features using scikit-learn and provides an interactive web interface using Streamlit.
+A machine learning application that predicts car prices based on various features using scikit-learn and provides an interactive web interface using Streamlit.[1][2][3][4]
+
+***
 
 ## Features
 
-- **Machine Learning Model**: Random Forest Regressor with 79.5% accuracy
-- **Interactive GUI**: Streamlit web application with dropdowns and sliders
-- **Real-time Predictions**: Instant price predictions based on user input
-- **Comprehensive Analysis**: Feature importance and model performance metrics
+- **Machine Learning Model**: Random Forest Regressor with 79.5% accuracy  
+- **Interactive GUI**: Streamlit web application with dropdowns and sliders  
+- **Real-time Predictions**: Instant price predictions based on user input  
+- **Comprehensive Analysis**: Feature importance and model performance metrics  
+
+***
 
 ## Dataset
 
-The application uses a dataset with 1,000 car records containing the following features:
-- **Make**: Audi, BMW, Ford, Honda, Toyota
-- **Model**: Model A, Model B, Model C, Model D, Model E
-- **Year**: 2000-2021
-- **Engine Size**: 1.0-5.0 liters
-- **Mileage**: 0-300,000 km
-- **Fuel Type**: Diesel, Electric, Petrol
-- **Transmission**: Automatic, Manual
-- **Price**: Target variable ($6,705 - $41,781)
+The application uses a dataset with 1,000 car records containing the following features:  
+- **Make**: Audi, BMW, Ford, Honda, Toyota  
+- **Model**: Model A, Model B, Model C, Model D, Model E  
+- **Year**: 2000-2021  
+- **Engine Size**: 1.0-5.0 liters  
+- **Mileage**: 0-300,000 km  
+- **Fuel Type**: Diesel, Electric, Petrol  
+- **Transmission**: Automatic, Manual  
+- **Price**: Target variable (\$6,705 - \$41,781)  
+
+***
 
 ## Installation
 
@@ -27,7 +37,6 @@ The application uses a dataset with 1,000 car records containing the following f
    ```bash
    cd /path/to/car_price_prediction
    ```
-
 2. **Create and activate virtual environment**:
    ```bash
    python3 -m venv .venv
@@ -35,22 +44,19 @@ The application uses a dataset with 1,000 car records containing the following f
    # or
    .venv\Scripts\activate  # On Windows
    ```
-
 3. **Install required packages**:
    ```bash
    pip install -r requirements.txt
    ```
 
+***
+
 ## Usage
 
 ### 1. Train the Model
-
-First, train the machine learning model:
-
 ```bash
 python main.py
 ```
-
 This will:
 - Load and preprocess the dataset
 - Train a Random Forest model
@@ -59,24 +65,19 @@ This will:
 - Generate a sample prediction
 
 ### 2. Test the Model
-
-Run the test script to validate predictions:
-
 ```bash
 python test_prediction.py
 ```
 
 ### 3. Launch the Web Application
-
-Start the Streamlit GUI:
-
 ```bash
 streamlit run app.py
 ```
-
 The application will be available at:
 - **Local URL**: http://localhost:8501
 - **Network URL**: http://your-ip:8501
+
+***
 
 ## Using the Web Interface
 
@@ -99,23 +100,23 @@ The application will be available at:
    - Expand "About This Model" for technical details
    - Expand "Feature Importance" to understand which factors affect pricing most
 
+***
+
 ## Model Performance
 
 - **Algorithm**: Random Forest Regressor (100 trees)
 - **Training Accuracy**: 97.2% R²
 - **Testing Accuracy**: 79.5% R²
-- **Mean Absolute Error**: $1,916
+- **Mean Absolute Error**: \$1,916
 - **Most Important Features**: Year (37.9%), Mileage (37.7%), Engine Size (19.4%)
 
 ### Model Evaluation Plots
-
 The following plots show the model's performance on the test dataset:
 
-![Model Performance](model_performance.png)
+![Model Performance]( **Left Plot - Actual vs Predicted Prices**: Shows how well the model's predictions match the actual car prices. Points closer to the red diagonal line indicate better predictions.
+- **Right Plot - Residual Plot**: Shows the difference between actual and predicted prices. Points scattered randomly around the horizontal line (y=0) indicate good model performance with no systematic bias.
 
-**Left Plot - Actual vs Predicted Prices**: Shows how well the model's predictions match the actual car prices. Points closer to the red diagonal line indicate better predictions.
-
-**Right Plot - Residual Plot**: Shows the difference between actual and predicted prices. Points scattered randomly around the horizontal line (y=0) indicate good model performance with no systematic bias.
+***
 
 ## File Structure
 
@@ -131,6 +132,8 @@ car_price_prediction/
 └── README.md                   # This file
 ```
 
+***
+
 ## Requirements
 
 ```
@@ -143,6 +146,8 @@ seaborn==0.12.2
 joblib==1.3.2
 ```
 
+***
+
 ## Example Predictions
 
 | Car Details | Predicted Price |
@@ -152,19 +157,25 @@ joblib==1.3.2
 | 2010 Ford Model C, 2.0L Diesel, Manual, 120k km | $21,746 |
 | 2018 Toyota Model E, 2.5L Electric, Automatic, 30k km | $32,523 |
 
+***
+
 ## Notes
 
-- Predictions are estimates based on the training dataset
-- Actual market prices may vary due to factors not included in the model
-- The model works best for cars within the training data ranges
-- For production use, consider retraining with more recent and comprehensive data
+- Predictions are estimates based on the training dataset  
+- Actual market prices may vary due to factors not included in the model  
+- The model works best for cars within the training data ranges  
+- For production use, consider retraining with more recent and comprehensive data  
+
+***
 
 ## Troubleshooting
 
-1. **Model file not found**: Run `python main.py` first to train and save the model
-2. **Import errors**: Ensure all packages are installed with `pip install -r requirements.txt`
-3. **Streamlit issues**: Try updating Streamlit with `pip install --upgrade streamlit`
-4. **Permission errors**: Ensure you have write permissions in the project directory
+1. **Model file not found**: Run `python main.py` first to train and save the model  
+2. **Import errors**: Ensure all packages are installed with `pip install -r requirements.txt`  
+3. **Streamlit issues**: Try updating Streamlit with `pip install --upgrade streamlit`  
+4. **Permission errors**: Ensure you have write permissions in the project directory  
+
+***
 
 ## Future Improvements
 
@@ -173,3 +184,18 @@ joblib==1.3.2
 - Implement ensemble methods with multiple algorithms
 - Add data validation and error handling
 - Deploy to cloud platforms (Heroku, AWS, etc.)
+
+***
+
+## Image Demonstration
+
+<p align="center">
+  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/ab53ec70-ad9c-4637-9eb0-a191432ecd35/Input-Summary-About-This-Model-Feature-Importance.jpg" width="400"/>
+  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/a87a6d13-87af-44be-9e4b-d53c9f18097f/Model-Information-How-It-Works-Limitations.jpg" width="400"/>
+</p>
+<p align="center">
+  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/cf9d3581-4a6a-456d-9382-34436eb2b814/Predicted-Price-Prediction-Details.jpg" width="400"/>
+  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/fd991b53-ed68-40c0-a022-90ddb2c5ef1b/Car-Price-Predictor.jpg" width="400"/>
+</p>
+
+---
