@@ -1,6 +1,4 @@
-Here is your updated README.md, with the demonstration images aligned horizontally for a neat presentation. The rest of your code and instructions remain untouched.
 
-***
 
 # Car Price Prediction Application 🚗
 
