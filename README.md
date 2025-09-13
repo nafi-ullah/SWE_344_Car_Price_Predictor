@@ -188,12 +188,12 @@ joblib==1.3.2
 ## Image Demonstration
 
 <p align="center">
-  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/ab53ec70-ad9c-4637-9eb0-a191432ecd35/Input-Summary-About-This-Model-Feature-Importance.jpg" width="400"/>
-  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/a87a6d13-87af-44be-9e4b-d53c9f18097f/Model-Information-How-It-Works-Limitations.jpg" width="400"/>
+  <img src="https://github.com/user-attachments/assets/2ff1f9c2-9fef-4703-9697-717c9aee540d" width="400"/>
+  <img src="https://github.com/user-attachments/assets/1b62edf6-fbaf-496e-88b6-91ef8798fa7e" width="400"/>
 </p>
 <p align="center">
-  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/cf9d3581-4a6a-456d-9382-34436eb2b814/Predicted-Price-Prediction-Details.jpg" width="400"/>
-  <img src="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/92990753/fd991b53-ed68-40c0-a022-90ddb2c5ef1b/Car-Price-Predictor.jpg" width="400"/>
+  <img src="https://github.com/user-attachments/assets/d960ff61-5b3b-4e00-8871-348669d60f3f" width="400"/>
+  <img src="https://github.com/user-attachments/assets/792c6117-b602-4162-a316-986c449b094d" width="400"/>
 </p>
 
 ---
